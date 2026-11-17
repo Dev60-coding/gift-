@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift for Eman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Surprise"></div>
+<audio id="birthdayMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+<header>
+        <div class="logo" style="color: #704653; font-size: x-large;">Aapke liye.</div>
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav-menu" id="nav-menu">
+            <ul>
+            <li><a href="#Surprise" style=" font-size: x-large;">Surprise</a></li>
+            <li><a href="#The cake" style=" font-size: x-large;">The cake</a></li>
+            <li><a href="#section3" style=" font-size: x-large;">For you</a></li>
+            <li><a href="#Write back" style=" font-size: x-large;">Write back</a></li>
+            </ul>
+        </nav>
+        </header>
+    <section class="Section-1" style="background-color: #FFF1E6;">
+       
+
+        <div class="countdown">
+    <h2>Kuch hone wala haii...</h2>
+    <p id="timer">loading count...</p>
+</div>
+
+      <div class="gift-container">
+    <div class="gift-box locked" id="giftBox" role="button" tabindex="0"
+         aria-label="Birthday gift">
+
+        <div class="gift-lid">
+            <div class="ribbon"></div>
+            <div class="bow-left"></div>
+            <div class="bow-right"></div>
+            <div class="bow-knot"></div>
+        </div> 
+
+        <div class="gift-base">
+            <div class="ribbon"></div>
+        </div>
+
+    </div>
+</div>
+    <div class="confetti-container" id="confetti"></div>
+
+    </section>
+
+
+    <div id="lockedContent" class="hidden">
+   
+<section class="Section-2" id="The cake">
+    <div class="cake-content">
+
+        <p class="section-label">AAJ TOH APKA DIN HAI</p>
+
+        <h1>apka chota sa cake</h1>
+
+        <p class="cake-subtitle">
+            aik wish bhi krna candles blow krne ke baad!!!
+        </p>
+
+        <div class="cake" id="cake">
+
+            <div class="candles">
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+            </div>
+
+            <div class="cake-top">
+                <div class="strawberry strawberry-one">🍓</div>
+                <div class="strawberry strawberry-two">🍓</div>
+                <div class="strawberry strawberry-three">🍓</div>
+                <div class="frosting-drips"></div>
+            </div>
+
+            <div class="cake-body">
+                <div class="cake-decoration"></div>
+            </div>
+
+        </div>
+        <p id="wishMessage">
+            tap krke candles blow kroo
+        </p>
+
+    </div>
+</section>
+
+
+
+<section class="Section-3" id="section3">
+
+    <div class="letter-container">
+
+        <p class="letter-label">Aik zaati paigham</p>
+
+        <h1>Kuch baatein khud kehne se behtar likhi jati hain</h1>
+
+        <p class="letter-subtitle">
+            Meri taraf se kuch alfaz apke naam.
+        </p>
+
+        <div class="envelope-scene" id="envelopeScene">
+
+            <button class="envelope" id="openLetter"
+                aria-label="Open your letter"
+                aria-expanded="false">
+
+                <span class="envelope-back"></span>
+
+                <span class="letter-paper">
+                    <span class="paper-heading">Apke liye kuch.</span>
+                    <span class="paper-line"></span>
+                    <span class="paper-line short"></span>
+                    <span class="paper-line"></span>
+                </span>
+
+                <span class="envelope-flap"></span>
+
+                <span class="envelope-front"></span>
+
+                <span class="envelope-seal">
+                    <span>✦</span>
+                </span>
+
+            </button>
+
+            <p class="envelope-hint" id="envelopeHint">
+                Jab prepare hojao toh parhna.
+            </p>
+
+        </div>
+
+        <article class="letter-card" id="letterCard" aria-hidden="true">
+
+            <div class="letter-card-inner">
+
+                <div class="letter-card-top">
+                    <span>Thank you.</span>
+                    <span class="letter-star">😇</span>
+                </div>
+
+                <div class="letter-divider"></div>
+
+                <h2>Dear eman.</h2>
+
+                <div class="letter-message">
+
+                    <p>mera letter idhar shuru hota hai.</p>
+
+                </div>
+
+                <div class="letter-signature">
+                    <span>Khuloos ke saath,</span>
+                    <span class="signature-name">Ammar</span>
+                </div>
+
+                <div class="letter-card-bottom">
+                    <span>kuch lafz lekin dil se.</span>
+                </div>
+
+            </div>
+
+            <button class="close-letter" id="closeLetter">
+                Band krdo
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+
+
+</div>
+<div class="birthday-popup" id="birthdayPopup">
+    <div class="popup-content">
+
+        <h1>HAPPY BIRTHDAY</h1>
+
+        <p>Happy 18th birthday emannn</p>
+
+
+        <button id="closePopup">aage barho?</button>
+    </div>
+</div>
+   
+<div id="fireworks" aria-hidden="true"></div>
+</body>
+    <script src="script.js" defer></script>
+</html>
